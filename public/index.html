@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>node-local test</title>
+<script src="/node-local/oni-apollo.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/sjs">
+var local=require("/node-local/local");
+</script>
+</head>
+<body>
+<h1>node-local test</h1>
+<script type="text/sjs">
+
+document.getElementById("file").textContent=noderequire("fs").readFileSync("sample.txt","utf8");
+
+</script>
+<pre id="file"></pre>
+</body>
+</html>
