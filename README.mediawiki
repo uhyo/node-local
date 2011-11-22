@@ -1,3 +1,3 @@
 ==requirement==
-* [http://github.com/onilabs/apollo Oni Apporo]
+* [http://github.com/onilabs/apollo Oni Apollo]
 * [http://socket.io/ socket.io]
